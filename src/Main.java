@@ -144,6 +144,14 @@ public class Main {
 
 
 
+        int result = 1;
+        int sub = 2;
+
+        // Итеративное решение
+        for (int i = 0; i < 10; i++) {
+            result = result + sub;
+            System.out.println(result);
+        }
 
 
 
